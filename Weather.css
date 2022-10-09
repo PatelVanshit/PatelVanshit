@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body{
+    background-size: cover;
+    background-color: rgb(175, 221, 248);
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#mainContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#right{
+    width: 25%;
+    height: 100%;
+}
+
+#rightOne{
+    width: 80%;
+    height: 300px;
+    margin: 36px 0px 40px 36px;
+    border-radius: 20px;
+    background-color: #1a395c;
+    color: white;
+    text-align: center;
+}
+
+#Rightdate{
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+#rightTop{
+    width: 80%;
+    height: 10%;
+    margin: 36px 0px 40px 36px;
+    background-color: #484b45;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: 400;
+    opacity: .9;
+    border-radius: 10px;
+}
+
+#rightTop2{
+
+    width: 80%;
+    height: 15%;
+    margin: 36px 0px 40px 36px;
+    background-color: #a53e58;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-weight: 400;
+    opacity: .9;
+    border-radius: 10px;
+
+}
+
+#rightTop2>div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#rightTop2>div:nth-child(1){
+    padding-top: 13px;
+}
+
+#rightTop>div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#rightTop>div:nth-child(1){
+    padding-top: 13px;
+}
+
+#left{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(237, 251, 253);
+    background: url(background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#city{
+    margin-left: 25px;
+    width: 450px;
+    height: 40px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-weight: lighter;
+    padding-left: 20px;
+    border: none;
+    border: 2px solid rgb(71, 71, 71);
+}
+
+#Search{
+    padding: 3px 20px;
+    height: 44px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(49, 49, 49);
+    color: white;
+
+}
+
+#leftOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#leftOne>div:first-child{
+    width: 40%;
+    height: 80%;
+}
+  
+#leftOne>div:last-child{
+    width: 20%;
+    height: 60%;
+}
+
+#timeDiv{
+    line-height: 40px;
+}
+
+#time{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#ampm{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#date{
+    font-size: 25px;
+    margin-left: 5px;
+}
+  
+#days{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#days>div{
+    width: 12%;
+    height: 90%;
+    text-align: center;
+    margin-right: 20px;
+    border: .5px solid rgb(97, 94, 94);
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+}
+
+#icon{
+    width: 50px;
+    height: 50px;
+}
+
+#days div p{
+    margin-top: 15px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#days div img{
+    margin-top: -10px;
+    width: 80px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+#days div{
+    color: white;
+}
+
+#days div i{
+    color: yellow;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+#wImg{
+   width: 150px;
+   height: 150px;
+   margin-top: -30px;
+}
+
+#curDay{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#cals{
+    margin-top: -12px;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+#Ncals{
+    color: white;
+}
+
+#loc{
+    display: flex;  
+}
+
+#loc>p{
+    margin:20px 0px 0px 5px;
+    color: yellow;
+    font-weight: 900;
+}
+ 
+#log{
+    font-size: 15px;
+    margin:25px 0px 0px 20px;
+}
+
+#rightOne>div:nth-child(2) i{
+    font-size: 70px;
+    margin-top: 30px;
+      
+}
+
+#temp{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: -38px;
+    font-size: 60px;
+}
+
+#sel{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+#o{
+    font-size: 30px;
+}
+
+
+
+
+
+
